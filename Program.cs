@@ -1,4 +1,4 @@
-﻿// Задача 6
+﻿// Задача 8
 int a;
 string userEnter1;
 
@@ -6,12 +6,9 @@ userEnter1 = Console.ReadLine();
 
 a = int.Parse(userEnter1);
 
-
-if(a % 2 == 1)
+int i = 2;
+while (i < a)
 {
-    Console.Write($"{a} is odd");
-}
-else
-{
-    Console.Write($"{a} is even");
+    Console.Write($"{i} ");
+    i += 2;
 }
